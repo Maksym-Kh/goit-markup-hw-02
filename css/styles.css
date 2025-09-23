@@ -17,8 +17,9 @@
 
 /* global styles */
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: var(--navy-blue);
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -32,10 +33,10 @@ body{
 .logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #2e2f42;
 }
 
 .nav-link{
@@ -43,14 +44,19 @@ body{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .nav-list a{
     font-weight: 500;
     text-decoration: none;
+ }
+
+ .nav-list-link{
+    color: #2e2f42;
  }
 
 /* interact */
@@ -70,8 +76,13 @@ color: var(--ocean);
      color: var(--ocean);
  }
 
-.button:hover{
+.button:hover,
+.button:focus{
     background: var(--ocean);
+}
+
+.address-item:focus{
+    color: #404bbf
 }
 
 
@@ -85,6 +96,7 @@ color: var(--ocean);
     color: var(--slate);
     text-decoration: none;
     list-style-type: none;
+    font-style: normal;
 }
 
 .address li {
@@ -99,42 +111,35 @@ color: var(--ocean);
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     color: var(--white);
+    letter-spacing: 0.02em;
 }
 
 .button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 /* reset */
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 
 /* benefits */
 .benefits-list{
-    display: flex;
-        align-items: flex-start;
         justify-content: flex-start;
-        flex-direction: column;
-        gap: 8px;
-        width: 264px;
-            height: 104px;
+
 }
 .benefits-title {
     font-size: 20px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
 
 .benefits-text {
     color: var(--slate);}
@@ -147,30 +152,24 @@ color: var(--ocean);
 
 .team-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /* .team-list {} */
 
 .team-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: var(--white);
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
 }
 
 .team-workers-name {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 .team-text{
 
@@ -180,17 +179,17 @@ color: var(--ocean);
 /* portfolio */
 .portfolio-title {font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    text-align: center;}
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 
 .portfolio-list {
     text-decoration: none;
     list-style-type: none;}
 
 .portfolio-item {
-    width: 360px;
-        height: 420px;
-border-bottom: 1px solid var(--cornflower);
     border-left: 1px solid var(--cornflower);
     border-right: 1px solid var(--cornflower);
   }
@@ -199,6 +198,7 @@ border-bottom: 1px solid var(--cornflower);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -209,13 +209,18 @@ border-bottom: 1px solid var(--cornflower);
     background: var(--navy-blue);
 }
 
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
+}
+
 .footer-link{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color:#4d5ae5;
     text-decoration: none;
     list-style-type: none;
 }
