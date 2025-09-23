@@ -1,0 +1,224 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+/* global styles */
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: var(--navy-blue);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+/* header */
+.header {
+    background: var(--white);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.nav-list a{
+    font-weight: 500;
+    text-decoration: none;
+ }
+
+/* interact */
+.nav-list-link:hover,
+.nav-list-link:focus{
+    color: var(--ocean);
+}
+.nav-list-link-secondary:hover{
+color: var(--ocean);
+
+ }
+ .address a:hover{
+    color: var(--ocean);
+}
+
+ .address a:hover {
+     color: var(--ocean);
+ }
+
+.button:hover{
+    background: var(--ocean);
+}
+
+
+
+ .nav-list li {
+    list-style-type: none;
+
+ }
+
+.address a{
+    color: var(--slate);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.address li {
+    list-style-type: none;
+}
+
+/* hero */
+.hero-title{
+    background: var(--navy-blue);
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: var(--white);
+}
+
+.button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+/* reset */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* benefits */
+.benefits-list{
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        width: 264px;
+            height: 104px;
+}
+.benefits-title {
+    font-size: 20px;
+    line-height: 1.2;}
+
+.benefits-text {
+    color: var(--slate);}
+
+/* team */
+.team-section{
+    background: var(--cloud);
+
+}
+
+.team-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+}
+
+/* .team-list {} */
+
+.team-item {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.team-workers-name {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team-text{
+
+    text-align: center;
+    color: var(--slate);}
+
+/* portfolio */
+.portfolio-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;}
+
+.portfolio-list {
+    text-decoration: none;
+    list-style-type: none;}
+
+.portfolio-item {
+    width: 360px;
+        height: 420px;
+border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+  }
+
+.portfolio-app {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-text {
+ color: var(--slate);}
+
+ /* footer */
+.footer {
+    background: var(--navy-blue);
+}
+
+.footer-link{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-text {
+   color: var(--cloud);
+}
