@@ -40,7 +40,8 @@ body{
 }
 
 .nav-link{
-    text-decoration: none;
+    /* text-decoration: none; */
+    /* 666666666666666666666666 */
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
@@ -52,11 +53,16 @@ body{
 
 .nav-list a{
     font-weight: 500;
-    text-decoration: none;
  }
-
+.nav-lsit-item:active{
+ color: #404bbf;
+}
  .nav-list-link{
     color: #2e2f42;
+ }
+
+ .address {
+     font-style: normal;
  }
 
 /* interact */
@@ -72,10 +78,6 @@ color: var(--ocean);
     color: var(--ocean);
 }
 
- .address a:hover {
-     color: var(--ocean);
- }
-
 .button:hover,
 .button:focus{
     background: var(--ocean);
@@ -84,24 +86,8 @@ color: var(--ocean);
 .address-item:focus{
     color: #404bbf
 }
+/* ----------- */
 
-
-
- .nav-list li {
-    list-style-type: none;
-
- }
-
-.address a{
-    color: var(--slate);
-    text-decoration: none;
-    list-style-type: none;
-    font-style: normal;
-}
-
-.address li {
-    list-style-type: none;
-}
 
 /* hero */
 .hero-title{
@@ -127,8 +113,14 @@ color: var(--ocean);
     line-height: 1.5;
 }
 /* reset */
+ul,ol{
+    list-style-type: none;
+}
 
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* benefits */
 .benefits-list{
         justify-content: flex-start;
@@ -139,6 +131,7 @@ color: var(--ocean);
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .benefits-text {
@@ -156,9 +149,9 @@ color: var(--ocean);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
-/* .team-list {} */
 
 .team-item {
     background: var(--white);
@@ -170,6 +163,7 @@ color: var(--ocean);
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .team-text{
 
@@ -183,11 +177,8 @@ color: var(--ocean);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
-
-.portfolio-list {
-    text-decoration: none;
-    list-style-type: none;}
 
 .portfolio-item {
     border-left: 1px solid var(--cornflower);
@@ -202,7 +193,7 @@ color: var(--ocean);
 }
 
 .portfolio-text {
- color: var(--slate);}
+ color: #2e2f42;}
 
  /* footer */
 .footer {
@@ -221,8 +212,7 @@ color: var(--ocean);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-    text-decoration: none;
-    list-style-type: none;
+    font-family: "Raleway", sans-serif;
 }
 .footer-text {
    color: var(--cloud);
